@@ -28,6 +28,7 @@ const GameZoneStyle = styled.div`
       .score-card {
         display: flex;
         justify-content: center;
+        align-items: center;
         border: 1px solid #a0b0bf;
         border-radius: 15px;
         width: 20%;

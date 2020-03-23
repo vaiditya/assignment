@@ -4,7 +4,6 @@ import Cross from "../../assets/Cross.png";
 import Zero from "../../assets/Zero.png";
 const FetchPlayers = React.memo(
   ({ details, changeDetails, startGame, selected, onSelect }) => {
-    console.log(details.type);
     return (
       <FetchPlayersStyle>
         <div className="container">
