@@ -6,7 +6,7 @@ import PlayMode from "./containers/PlayMode";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={PlayMode} />
         <Route exact path="/details" component={FetchPlayers} />
